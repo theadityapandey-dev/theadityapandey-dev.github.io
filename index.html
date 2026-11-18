@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Pandey | Personal Portfolio</title>
+  <meta name="description" content="Welcome to the personal portfolio of Aditya Pandey, MIS professional and aspiring Data Analyst.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080d18;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #202a3c;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #55b7ff;
+    }
+
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #55b7ff;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 10%;
+    }
+
+    .hero small {
+      color: #55b7ff;
+      font-size: 17px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 68px);
+      line-height: 1.2;
+      margin: 15px 0;
+    }
+
+    h1 span {
+      color: #55b7ff;
+    }
+
+    .hero p {
+      color: #aab5c8;
+      max-width: 600px;
+      font-size: 17px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #168bd2;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      width: fit-content;
+    }
+
+    section {
+      padding: 65px 10%;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+      color: #55b7ff;
+    }
+
+    .content {
+      color: #b5bfd0;
+      max-width: 750px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skill {
+      background: #151f30;
+      border: 1px solid #263b55;
+      padding: 13px 22px;
+      border-radius: 8px;
+      color: #dcecff;
+    }
+
+    .project {
+      background: #111a29;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #263b55;
+      max-width: 600px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #202a3c;
+      color: #8996aa;
+    }
+
+    @media(max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">ADITYA.</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="home">
+      <small>WELCOME TO MY PERSONAL WEBSITE</small>
+      <h1>Hi, I'm <span>Aditya Pandey</span></h1>
+      <p>
+        MIS Professional | Aspiring Data Analyst |
+        Passionate about Excel, Data and Technology.
+      </p>
+      <a href="#about" class="btn">Explore My Profile</a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="content">
+        <p>
+          Hello! I'm Aditya Pandey, a B.Sc. graduate
+          from Uttar Pradesh, India.
+        </p>
+        <p>
+          I have experience in MIS operations and
+          production reporting. I am continuously
+          learning Excel, Data Analysis and Power BI
+          to build my career in the corporate world.
+        </p>
+        <p>
+          My goal is to grow professionally and
+          develop practical technology skills.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills">
+        <div class="skill">Microsoft Excel</div>
+        <div class="skill">MIS Reporting</div>
+        <div class="skill">Data Management</div>
+        <div class="skill">Production Reporting</div>
+        <div class="skill">HTML</div>
+        <div class="skill">Power BI - Learning</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Production Summary Automation</h3>
+        <p class="content">
+          Working on an Excel-based production
+          reporting and summary automation project.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p class="content">
+        Thank you for visiting my website.
+        Feel free to connect with me professionally.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Aditya Pandey. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
