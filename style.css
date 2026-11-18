@@ -111,6 +111,8 @@ footer {
     }
 }
 body {
-  background: #080d18 !important;
-  color: white !important;
+  body {
+  background: #050505 !important;
+  color: #ffffff !important;
+}
 }
