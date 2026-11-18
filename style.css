@@ -110,3 +110,7 @@ footer {
         max-width: 100%;
     }
 }
+body {
+  background: #080d18 !important;
+  color: white !important;
+}
