@@ -113,4 +113,18 @@ footer {
 body {
   background: #050505 !important;
   color: #ffffff !important;
+}/* PREMIUM BUTTON STYLE */
+.btn {
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
 }
